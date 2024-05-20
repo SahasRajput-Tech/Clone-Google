@@ -3,14 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google Clone</title>
+    <title>Clone Google</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <img src="google.png" />
-    <br />
-    <input type="text" placeholder="Type your search item here" /><br /><br />
-    <button>Search</button>
-    <button>I'm feeling lucky</button>
+    <div class="main">
+      <img src="google.png" alt="Google Logo" class="logo-img" />
+      <input
+        type="text"
+        placeholder="Type your search item here"
+        class="search-input"
+      />
+      <div class="btn-wrapper">
+        <button class="btn btn-search">Search</button>
+        <button class="btn btn-lucky">I'm Feeling Lucky</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
