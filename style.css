@@ -1,49 +1,66 @@
-div{
-    margin-top: 100px;
-}
-.main {
-    margin-top: 100px;    
+/* Adjusted general margin for consistency */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
+/* Main container styling */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px; /* Adjusted to align with div */
+}
+
+/* Google logo styling */
 .logo-img {
     display: block;
-    width: 300px;
-
+    width: 272px; /* Slightly smaller width */
+    height: auto;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     object-position: center;
 }
 
+/* Search input styling */
 .search-input {
     display: block;
-    width: 400px;
+    width: 584px; /* Increased width */
     margin-left: auto;
     margin-right: auto;
     line-height: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 12px 24px; /* Simplified padding */
     border: 1px solid #dfe1e5;
     border-radius: 24px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28); /* Added box shadow */
+    font-size: 16px;
 }
 
+/* Button wrapper styling */
 .btn-wrapper {
     display: flex;
     justify-content: center;
+    margin-top: 24px; /* Adjusted margin */
 }
 
+/* Button styling */
 .btn {
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-top: 30px;
-    background: #dfe1e5;
-    border: none;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
+    margin: 0 4px; /* Adjusted margin shorthand */
+    background: #f8f9fa; /* Updated background color */
+    border: 1px solid #f8f9fa; /* Added border */
+    color: #3c4043; /* Text color */
+    padding: 10px 20px; /* Adjusted padding */
     border-radius: 4px;
     font-size: 14px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.2s ease-in-out; /* Added transition */
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #f1f3f4;
+    border: 1px solid #f1f3f4;
 }
